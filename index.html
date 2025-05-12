@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro BNBChain Competition Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maestro <span class="golden-text">BNBChain</span> Competition Leaderboard</h1>
+            <div class="prize-pool">
+                <h2>Prize Pool: <span>$250,000</span></h2>
+            </div>
+        </header>
+
+        <section class="prize-breakdown">
+            <div class="prize-tier top-tier">
+                <div class="prize-item first">
+                    <span class="medal">🥇</span>
+                    <span class="position">1st:</span>
+                    <span class="amount">$100,000</span>
+                </div>
+                <div class="prize-item second">
+                    <span class="medal">🥈</span>
+                    <span class="position">2nd:</span>
+                    <span class="amount">$50,000</span>
+                </div>
+                <div class="prize-item third">
+                    <span class="medal">🥉</span>
+                    <span class="position">3rd:</span>
+                    <span class="amount">$20,000</span>
+                </div>
+            </div>
+            
+            <div class="medal-divider">
+                <div class="medal-divider-line"></div>
+                <div class="medal-divider-text">Medal Winners</div>
+                <div class="medal-divider-line"></div>
+            </div>
+
+            <div class="prize-tier">
+                <div class="prize-item">
+                    <span class="position">4th–10th:</span>
+                    <span class="amount">$2,000 × 7 places = $14,000</span>
+                </div>
+                <div class="prize-item">
+                    <span class="position">11th–25th:</span>
+                    <span class="amount">$2,000 × 15 places = $30,000</span>
+                </div>
+                <div class="prize-item">
+                    <span class="position">26th–50th:</span>
+                    <span class="amount">$1,440 × 25 places = $36,000</span>
+                </div>
+            </div>
+            
+            <div class="prize-section-divider"></div>
+            
+            <div class="prize-info">
+                <p>Results are updated in real-time. Final standings will be verified at competition end.</p>
+                <div class="social-links">
+                    <h3>Follow us and our partners on X</h3>
+                    <div class="twitter-links">
+                        <a href="https://x.com/MaestroBots" target="_blank" rel="noopener noreferrer" class="twitter-link">
+                            <div class="twitter-icon">𝕏</div>
+                            <span>@MaestroBots</span>
+                        </a>
+                        <a href="https://x.com/BNBChain" target="_blank" rel="noopener noreferrer" class="twitter-link">
+                            <div class="twitter-icon">𝕏</div>
+                            <span>@BNBChain</span>
+                        </a>
+                        <a href="https://x.com/Pancakeswap" target="_blank" rel="noopener noreferrer" class="twitter-link">
+                            <div class="twitter-icon">𝕏</div>
+                            <span>@Pancakeswap</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="leaderboard">
+            <h2>Current Rankings</h2>
+            <div class="leaderboard-table">
+                <div class="table-header">
+                    <div class="rank">Rank</div>
+                    <div class="address">Address</div>
+                    <div class="score">Dollar Volume</div>
+                </div>
+                <div class="table-body" id="leaderboard-data">
+                    <!-- Leaderboard data will be populated here via API -->
+                    <div class="loading-message">Loading leaderboard data...</div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="seo-footer">
+            <div class="seo-content">
+                <h2>Maestro: The #1 Telegram Trading Bot</h2>
+                <p>Maestro is the leading Telegram trading bot across multiple blockchains including <span class="highlight-chain">Solana</span>, <span class="highlight-chain">BNBChain</span>, <span class="highlight-chain">Base</span>, <span class="highlight-chain">Ethereum</span>, <span class="highlight-chain">Sonic</span>, <span class="highlight-chain">Avalanche</span>, <span class="highlight-chain">Arbitrum</span>, <span class="highlight-chain">Tron</span> and <span class="highlight-chain">TON</span>.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">$12.3B+</div>
+                        <div class="stat-label">Lifetime Trading Volume</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">542,000+</div>
+                        <div class="stat-label">Total Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">34.1M</div>
+                        <div class="stat-label">Trades Executed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">40,908</div>
+                        <div class="stat-label">Daily Trades</div>
+                    </div>
+                </div>
+                
+                <p class="seo-tagline">Experience the power of Maestro 2.0: Encore – delivering unmatched speed, precision, and control for traders at every level.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="particle-effect.js"></script>
+</body>
+</html>
